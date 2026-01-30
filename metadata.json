@@ -1,0 +1,7 @@
+{
+  "name": "the project",
+  "description": "A sophisticated and elegant event management platform specializing in weddings, anniversaries, and high-end celebrations.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

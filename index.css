@@ -5,15 +5,19 @@
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  color: #22223b;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #29304C;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ECDAE8;
+  background-image: linear-gradient(rgba(236, 218, 232, 0.88), rgba(236, 218, 232, 0.88)), url('/gallery/anniversary_toast.png');
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -64,24 +68,24 @@ a, button {
 /* Separator styling */
 .separator {
   height: 1px;
-  background: linear-gradient(to right, transparent, #c9ada7, transparent);
+  background: linear-gradient(to right, transparent, #AA91A1, transparent);
   margin: 2rem 0;
 }
 
 /* Glass morphism effect */
 .glass {
-  background: rgba(242, 233, 228, 0.7);
+  background: rgba(236, 218, 232, 0.7);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(201, 173, 167, 0.2);
+  border: 1px solid rgba(170, 145, 161, 0.2);
 }
 
 /* Text selection */
 ::selection {
-  background-color: #c9ada7;
-  color: #22223b;
+  background-color: #AA91A1;
+  color: #29304C;
 }
 
 ::-moz-selection {
-  background-color: #c9ada7;
-  color: #22223b;
+  background-color: #AA91A1;
+  color: #29304C;
 }

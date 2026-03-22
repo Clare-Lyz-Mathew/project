@@ -9,14 +9,19 @@ const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const galleryItems = [
-    { id: "1", image: "/gallery/kerala_wedding.png", category: "Wedding", caption: "Vibrant traditional Kerala Hindu wedding", tags: ["Traditional", "Vibrant", "Hindu"] },
-    { id: "2", image: "/gallery/church_wedding.png", category: "Wedding", caption: "Elegant Christian wedding in a grand church", tags: ["Elegant", "Christian", "Altar"] },
-    { id: "3", image: "/gallery/sadhya_catering.png", category: "Catering", caption: "Grand Kerala Sadhya served on banana leaf", tags: ["Sadhya", "Gourmet", "Traditional"] },
-    { id: "4", image: "/gallery/corporate_gala.png", category: "Custom", caption: "Luxury corporate gala dinner in a grand ballroom", tags: ["Corporate", "Luxury", "Gala"] },
-    { id: "5", image: "/gallery/birthday_party.png", category: "Birthday", caption: "Lively luxury birthday party setup", tags: ["Lively", "Modern", "Balloons"] },
-    { id: "6", image: "/gallery/memorial_service.png", category: "Memorial", caption: "Peaceful and elegant memorial service", tags: ["Peaceful", "Respectful", "White Wreaths"] },
-    { id: "7", image: "/gallery/anniversary_toast.png", category: "Anniversary", caption: "Golden Anniversary champagne toast", tags: ["Toast", "Golden", "Crystal"] },
-    { id: "8", image: "/gallery/baptisim_candles.png", category: "Baptism", caption: "Serene baptism ceremony setup", tags: ["Serene", "Holy", "Candles"] }
+    { id: "1", image: "/gallery/gala_dinner.jpg", category: "Wedding", caption: "Elegant Evening Gala Reception", tags: ["Elegant", "Gala", "Reception"] },
+    { id: "2", image: "/gallery/church_wedding.png", category: "Wedding", caption: "Elegant Christian Wedding in a Grand Church", tags: ["Elegant", "Christian", "Altar"] },
+    { id: "3", image: "/gallery/red_table_setup.jpg", category: "Catering", caption: "Luxurious Fine Dining Table Setup", tags: ["Fine Dining", "Gourmet", "Bespoke"] },
+    { id: "4", image: "/gallery/corporate_gala.png", category: "Custom", caption: "Grand Ballroom Corporate Gala", tags: ["Corporate", "Luxury", "Gala"] },
+    { id: "5", image: "/gallery/birthday_party.png", category: "Birthday", caption: "Lively Luxury Birthday Celebration", tags: ["Lively", "Modern", "Balloons"] },
+    { id: "6", image: "/gallery/memorial_service.png", category: "Memorial", caption: "Peaceful and Dignified Memorial Service", tags: ["Peaceful", "Respectful", "White Wreaths"] },
+    { id: "7", image: "/gallery/anniversary_toast.png", category: "Anniversary", caption: "Golden Anniversary Champagne Toast", tags: ["Toast", "Golden", "Crystal"] },
+    { id: "8", image: "/gallery/baptisim_candles.png", category: "Baptism", caption: "Serene Baptism Ceremony Setup", tags: ["Serene", "Holy", "Candles"] },
+    { id: "9", image: "/gallery/baptism_decor.jpg", category: "Baptism", caption: "Elegant Balloon Arch Christening Décor", tags: ["Balloons", "Elegant", "Christening"] },
+    { id: "10", image: "/gallery/balloon_bouquet.jpg", category: "Birthday", caption: "Luxe Chrome Balloon Bouquet", tags: ["Balloons", "Gold", "Luxury"] },
+    { id: "11", image: "/gallery/memorial_setup.jpg", category: "Memorial", caption: "Heartfelt Memorial Tribute Display", tags: ["Tribute", "Memorial", "Flowers"] },
+    { id: "12", image: "/gallery/gala_dinner.jpg", category: "Reunion", caption: "Opulent Gala Reunion Dinner", tags: ["Opulent", "Candlelight", "Reunion"] },
+    { id: "13", image: "/gallery/red_table_setup.jpg", category: "Anniversary", caption: "Romantic Red Table Setting", tags: ["Romantic", "Crimson", "Anniversary"] }
   ];
   const filteredItems = selectedFilter === "All" ? galleryItems : galleryItems.filter((item) => item.category === selectedFilter);
   const filters = ["All", "Wedding", "Memorial", "D\xE9cor", "Catering", "Anniversary", "Birthday", "Reunion", "Custom", "Baptism", "Photography", "Light & Sound"];

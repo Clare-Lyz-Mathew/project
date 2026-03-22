@@ -34,7 +34,7 @@ const AboutUsPage = () => {
     /* Hero Section */
   }
         <section className="relative py-24 overflow-hidden border-b border-navy/10">
-          <div className="absolute inset-0 z-0 bg-cover bg-center" style={{ backgroundImage: `url('/gallery/kerala_wedding.png')` }}>
+          <div className="absolute inset-0 z-0 bg-cover bg-center" style={{ backgroundImage: `url('/gallery/gala_dinner.jpg')` }}>
             <div className="absolute inset-0 bg-navy/80 backdrop-blur-sm" />
           </div>
           <div className="container mx-auto px-6 relative z-10 text-white">

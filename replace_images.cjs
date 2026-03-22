@@ -2,23 +2,23 @@ const fs = require('fs');
 const path = require('path');
 
 const mapping = {
-  'wedding': '/gallery/kerala_wedding.png',
+  'wedding': '/gallery/gala_dinner.jpg',
   'anniversary': '/gallery/anniversary_toast.png',
   'birthday': '/gallery/birthday_party.png',
-  'reunion': '/gallery/corporate_gala.png',
+  'reunion': '/gallery/gala_dinner.jpg',
   'baptism': '/gallery/baptisim_candles.png',
   'memorial': '/gallery/memorial_service.png',
-  'custom': '/gallery/corporate_gala.png',
-  'catering': '/gallery/sadhya_catering.png',
-  'd\xE9cor': '/gallery/church_wedding.png',
+  'custom': '/gallery/red_table_setup.jpg',
+  'catering': '/gallery/red_table_setup.jpg',
+  'decor': '/gallery/balloon_bouquet.jpg',
   'photography': '/gallery/anniversary_toast.png',
   'light & sound': '/gallery/birthday_party.png',
   'venue liaison': '/gallery/corporate_gala.png',
-  'celebratory': '/gallery/kerala_wedding.png',
-  'religious': '/gallery/baptisim_candles.png'
+  'celebratory': '/gallery/gala_dinner.jpg',
+  'religious': '/gallery/baptism_decor.jpg'
 };
 
-const defaultImage = '/gallery/kerala_wedding.png';
+const defaultImage = '/gallery/gala_dinner.jpg';
 
 const targetDirs = [
   'c:/Users/ACER/OneDrive/Desktop/new/project/pages',

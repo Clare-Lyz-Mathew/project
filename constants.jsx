@@ -9,14 +9,14 @@ import {
   ShoppingBag
 } from "lucide-react";
 const GALLERY_ITEMS = [
-  { id: "1", url: "/gallery/kerala_wedding.png", type: "Wedding", classification: "Celebratory", subType: "Mystical", date: "June 2024", location: "Enchanted Woods" },
-  { id: "2", url: "/gallery/kerala_wedding.png", type: "Wedding", classification: "Celebratory", subType: "Modern", date: "May 2024", location: "Misty Peaks" },
-  { id: "3", url: "/gallery/birthday_party.png", type: "Birthday", classification: "Celebratory", date: "April 2024", location: "Twilight Ridge" },
-  { id: "4", url: "/gallery/corporate_gala.png", type: "Reunion", classification: "Celebratory", date: "March 2024", location: "The Highlands" },
-  { id: "5", url: "/gallery/baptisim_candles.png", type: "Baptism", classification: "Religious", date: "Feb 2024", location: "Silent Valley" },
-  { id: "6", url: "/gallery/memorial_service.png", type: "Memorial", classification: "Memorial", date: "Jan 2024", location: "Ancient Grove" },
-  { id: "7", url: "/gallery/kerala_wedding.png", type: "Wedding", classification: "Celebratory", subType: "Religious", date: "Dec 2023", location: "Northern Lakes" },
-  { id: "8", url: "/gallery/anniversary_toast.png", type: "Anniversary", classification: "Celebratory", date: "Nov 2023", location: "Purple Horizons" }
+  { id: "1", url: "/gallery/gala_dinner.jpg", type: "Wedding", classification: "Celebratory", subType: "Mystical", date: "June 2024", location: "Enchanted Woods" },
+  { id: "2", url: "/gallery/red_table_setup.jpg", type: "Wedding", classification: "Celebratory", subType: "Modern", date: "May 2024", location: "Misty Peaks" },
+  { id: "3", url: "/gallery/balloon_bouquet.jpg", type: "Birthday", classification: "Celebratory", date: "April 2024", location: "Twilight Ridge" },
+  { id: "4", url: "/gallery/gala_dinner.jpg", type: "Reunion", classification: "Celebratory", date: "March 2024", location: "The Highlands" },
+  { id: "5", url: "/gallery/baptism_decor.jpg", type: "Baptism", classification: "Religious", date: "Feb 2024", location: "Silent Valley" },
+  { id: "6", url: "/gallery/memorial_setup.jpg", type: "Memorial", classification: "Memorial", date: "Jan 2024", location: "Ancient Grove" },
+  { id: "7", url: "/gallery/church_wedding.png", type: "Wedding", classification: "Celebratory", subType: "Religious", date: "Dec 2023", location: "Northern Lakes" },
+  { id: "8", url: "/gallery/red_table_setup.jpg", type: "Anniversary", classification: "Celebratory", date: "Nov 2023", location: "Purple Horizons" }
 ];
 const SERVICES = [
   {
@@ -35,7 +35,7 @@ const SERVICES = [
     classification: "Celebratory",
     title: "Twilight Birthdays",
     description: "Celebrating life milestones with immersive environments under the stars.",
-    image: "/gallery/church_wedding.png",
+    image: "/gallery/balloon_bouquet.jpg",
     features: ["Themed Star Decor", "Mixology Stations", "Immersive Entertainment"],
     themeColor: "light",
     overlayPattern: "https://www.transparenttextures.com/patterns/cloud-noise.png"
@@ -45,7 +45,7 @@ const SERVICES = [
     classification: "Religious",
     title: "Sacred Ceremonies",
     description: "A serene atmosphere for your child's first major milestone, emphasizing grace and the tranquility of nature.",
-    image: "/gallery/birthday_party.png",
+    image: "/gallery/baptism_decor.jpg",
     features: ["Ceremony Coordination", "Intimate Reception", "Floral Purity"],
     themeColor: "light",
     overlayPattern: "https://www.transparenttextures.com/patterns/cloud-noise.png"
@@ -55,7 +55,7 @@ const SERVICES = [
     classification: "Memorial",
     title: "Life Celebrations",
     description: "A dignified, respectful space to honor a legacy with grace, peace, and natural beauty.",
-    image: "/gallery/corporate_gala.png",
+    image: "/gallery/memorial_setup.jpg",
     features: ["Eulogy Setups", "Dignified Floral Tributes", "Host Concierge"],
     themeColor: "dignified",
     overlayPattern: "https://www.transparenttextures.com/patterns/black-paper.png"
@@ -65,7 +65,7 @@ const SERVICES = [
     classification: "Custom",
     title: "Wild Canvas",
     description: "For events that defy categorization. We bring wild, non-traditional visions to life.",
-    image: "/gallery/corporate_gala.png",
+    image: "/gallery/red_table_setup.jpg",
     features: ["Bespoke Creative Brief", "Experimental Decor", "Mountain Scouting"],
     themeColor: "dark",
     overlayPattern: "https://www.transparenttextures.com/patterns/cubes.png"
@@ -75,7 +75,7 @@ const SERVICES = [
     classification: "Add-ons",
     title: "Service Marketplace",
     description: "Bespoke modular enhancements for your existing events, from catering to soundscapes.",
-    image: "/gallery/sadhya_catering.png",
+    image: "/gallery/gala_dinner.jpg",
     features: ["Catering", "Light & Sound", "Photo/Video", "Decor"],
     themeColor: "light",
     overlayPattern: "https://www.transparenttextures.com/patterns/geometric-leaves.png"
@@ -87,7 +87,7 @@ const ADD_ONS = [
     category: "Catering",
     title: "Michelin-Inspired Fine Dining",
     description: "Multi-course tasting menus designed around seasonal mountain ingredients.",
-    image: "/gallery/baptisim_candles.png",
+    image: "/gallery/red_table_setup.jpg",
     specs: ["Wine Pairing", "Silver Service", "Seasonal Ingredients"]
   },
   {
@@ -95,7 +95,7 @@ const ADD_ONS = [
     category: "Light & Sound",
     title: "Twilight Atmospherics",
     description: "Precision mapping and lighting rigs that emulate starry skies.",
-    image: "/gallery/kerala_wedding.png",
+    image: "/gallery/gala_dinner.jpg",
     specs: ["4K Projection", "Surround Audio", "Intelligent Lighting"]
   },
   {
@@ -103,7 +103,7 @@ const ADD_ONS = [
     category: "Photo/Video",
     title: "The Showreel Studio",
     description: "Cinematic captures using drone and 35mm film styles.",
-    image: "/gallery/sadhya_catering.png",
+    image: "/gallery/baptism_decor.jpg",
     specs: ["Same-day Edits", "Physical Albums", "Drone Coverage"]
   },
   {
@@ -111,7 +111,7 @@ const ADD_ONS = [
     category: "Decor",
     title: "Wilderness Florals",
     description: "Avant-garde floral installations featuring wild elements.",
-    image: "/gallery/corporate_gala.png",
+    image: "/gallery/balloon_bouquet.jpg",
     specs: ["Custom Furniture", "Scent Design", "Sustainable Sourcing"]
   }
 ];

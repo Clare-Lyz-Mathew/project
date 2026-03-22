@@ -60,8 +60,8 @@ const AddOnServicesPage = () => {
       priceRange: "Included in package",
       icon: Building2,
       images: [
-        "/gallery/sadhya_catering.png",
-        "/gallery/kerala_wedding.png"
+        "/gallery/gala_dinner.jpg",
+        "/gallery/red_table_setup.jpg"
       ]
     }
   ];

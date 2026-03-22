@@ -24,37 +24,37 @@ const EventCategoriesPage = () => {
     "Weddings": {
       description: "Elegant ceremonies tailored to your cultural heritage. From intimate gatherings to grand celebrations with meticulous attention to detail.",
       packages: ["Intimate Ceremony", "Classic Celebration", "Grand Affair", "Destination Wedding"],
-      image: "/gallery/kerala_wedding.png"
+      image: "/gallery/church_wedding.png"
     },
     "Anniversaries": {
       description: "Celebrate milestones with sophistication. Whether it's your 25th or 50th anniversary, we create memorable experiences.",
       packages: ["Silver Anniversary", "Golden Jubilee", "Diamond Celebration", "Custom Milestone"],
-      image: "/gallery/corporate_gala.png"
+      image: "/gallery/red_table_setup.jpg"
     },
     "Birthdays": {
       description: "From children's parties to milestone birthdays, we design celebrations that reflect personality and joy.",
-      packages: ["Children's Party", "Teen Celebration", "Milestone Birthday", "Elegant Soir\xE9e"],
-      image: "/gallery/birthday_party.png"
+      packages: ["Children's Party", "Teen Celebration", "Milestone Birthday", "Elegant Soirée"],
+      image: "/gallery/balloon_bouquet.jpg"
     },
     "Reunions": {
       description: "Bring families and friends together with thoughtfully planned reunions that honor shared memories.",
       packages: ["Family Reunion", "Class Reunion", "Corporate Reunion", "Custom Gathering"],
-      image: "/gallery/corporate_gala.png"
+      image: "/gallery/gala_dinner.jpg"
     },
     "Baptisms": {
       description: "Sacred ceremonies handled with reverence and respect. We honor your religious traditions.",
       packages: ["Traditional Baptism", "Modern Ceremony", "Multi-Faith Service", "Custom Ritual"],
-      image: "/gallery/corporate_gala.png"
+      image: "/gallery/baptism_decor.jpg"
     },
     "Custom Celebrations": {
       description: "Unique events that don't fit traditional categories. We bring your vision to life.",
       packages: ["Custom Design", "Themed Event", "Corporate Celebration", "Special Occasion"],
-      image: "/gallery/memorial_service.png"
+      image: "/gallery/birthday_party.png"
     },
     "Memorial Services": {
       description: "Respectful and meaningful services that honor life and legacy. Thoughtful coordination for solemn occasions.",
       packages: ["Traditional Service", "Celebration of Life", "Memorial Gathering", "Tribute Event"],
-      image: "/gallery/corporate_gala.png"
+      image: "/gallery/memorial_setup.jpg"
     }
   };
   return <div className="min-h-screen">
@@ -65,7 +65,7 @@ const EventCategoriesPage = () => {
     /* Header Section */
   }
         <section className="relative py-16 overflow-hidden border-b border-navy/10">
-          <div className="absolute inset-0 z-0 bg-cover bg-center" style={{ backgroundImage: `url('/gallery/kerala_wedding.png')` }}>
+          <div className="absolute inset-0 z-0 bg-cover bg-center" style={{ backgroundImage: `url('/gallery/gala_dinner.jpg')` }}>
             <div className="absolute inset-0 bg-navy/80 backdrop-blur-sm" />
           </div>
           <div className="container mx-auto px-6 relative z-10 text-white">

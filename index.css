@@ -89,3 +89,44 @@ a, button {
   background-color: #AA91A1;
   color: #29304C;
 }
+
+/* jQuery Enhancements */
+[data-jq-reveal] {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+[data-jq-reveal].jq-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#jq-top-btn {
+  position: fixed;
+  bottom: -60px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #29304C;
+  color: #ECDAE8;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(41, 48, 76, 0.4);
+  z-index: 9999;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-size: 24px;
+}
+
+#jq-top-btn.visible {
+  bottom: 30px;
+}
+
+#jq-top-btn:hover {
+  background-color: #89758C;
+  transform: scale(1.1);
+}

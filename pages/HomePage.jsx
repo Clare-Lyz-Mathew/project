@@ -144,6 +144,7 @@ const HomePage = () => {
     const IconComponent = category.icon;
     return <div
       key={index}
+      data-jq-reveal="true"
       className="bg-mist border border-mauve/20 rounded-soft p-8 shadow-soft hover:shadow-soft-lg transition-all duration-300 hover:-translate-y-2 group"
     >
                   <div className="w-16 h-16 bg-mauve/20 rounded-full flex items-center justify-center mb-6 group-hover:bg-mauve/30 transition-colors">
@@ -203,6 +204,7 @@ const HomePage = () => {
     const IconComponent = item.icon;
     return <div
       key={index}
+      data-jq-reveal="true"
       className="text-center animate-fade-in"
       style={{ animationDelay: `${index * 0.1}s` }}
     >
@@ -235,7 +237,7 @@ const HomePage = () => {
             <p className="text-slate text-sm">Based on {reviews.length} genuine reviews worldwide</p>
           </div>
           
-          <div className="max-w-4xl mx-auto relative mb-24">
+          <div className="max-w-4xl mx-auto relative mb-24" data-jq-reveal="true">
             <div className="bg-mist rounded-soft p-12 shadow-soft-lg min-h-[300px] flex flex-col justify-center transition-all duration-500">
               <div className="flex justify-between items-start mb-6">
                 <Quote className="w-12 h-12 text-mauve" />

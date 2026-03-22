@@ -10,8 +10,14 @@ import BookingAvailabilityPage from "./pages/BookingAvailabilityPage";
 import LoginPage from "./pages/LoginPage";
 import ScrollToTop from "./components/ScrollToTop";
 import ProtectedRoute from "./components/ProtectedRoute";
+import { useEffect } from "react";
+import { initJQueryEffects } from "./jquery.effects";
 
 const App = () => {
+  useEffect(() => {
+    initJQueryEffects();
+  }, []);
+
   return <Router>
       <ScrollToTop />
       <div className="relative font-sans text-navy bg-transparent">

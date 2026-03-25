@@ -1,12 +1,8 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Elyza Events - Sophisticated Event Management
 
 Elyza Events is a comprehensive event management web application designed to help users plan, customize, and book bespoke events. The platform specializes in a variety of celebrations, including weddings, anniversaries, corporate galas, and memorial services. It features an intuitive, visually stunning interface that emphasizes aesthetics, user experience, and seamless interactivity.
 
-## 🚀 Features & Functionalities
+## Features & Functionalities
 
 - **Dynamic Event Categories:** Browse through dedicated sections for Weddings, Birthdays, Reunions, Baptisms, and Memorials, each dynamically populated with tailored packages and unique imagery.
 - **Interactive Gallery:** A responsive masonry image gallery featuring category-based filtering and an immersive lightbox viewer to explore the agency's portfolio.
@@ -16,7 +12,7 @@ Elyza Events is a comprehensive event management web application designed to hel
 - **Protected Booking Flow:** Secure, authenticated portal for reserving event dates and processing client bookings.
 - **Smooth UX Enhancements:** Features custom scroll-reveal animations, animated back-to-top navigation, and contextual sticky header shrinking for premium navigational feel on any device.
 
-## 🛠️ Tech Stack & Modules
+##Tech Stack & Modules
 
 This project is built on a modern, fast, and scalable frontend architecture:
 
@@ -31,7 +27,7 @@ This project is built on a modern, fast, and scalable frontend architecture:
 | **Firebase** | Provides critical backend-as-a-service (BaaS) capabilities; specifically used to bridge the application's authentication system and successfully guard protected routes (`/booking`, `/customize`). |
 | **Three.js** | Available within the dependency layer to allow experimental 3D rendering and immersive visual elements within specialized event pavilion segments. |
 
-## 💻 Local Development
+## Local Development
 
 **Prerequisites:** Node.js (v18+ recommended)
 
@@ -53,7 +49,7 @@ This project is built on a modern, fast, and scalable frontend architecture:
    npm run build
    ```
 
-## 🎨 Design System
+## Design System
 
 The application relies entirely on a bespoke color palette engineered to evoke luxury, celebration, and sophisticated tranquility:
 - **Navy (`#29304C`)**: Deep, sophisticated base for strong typography contrast.
